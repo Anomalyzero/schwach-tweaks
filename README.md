@@ -1,5 +1,5 @@
 # schwach-tweaks
-Docs, notes &amp; scripts on tweaks I often like to apply to my machines
+Docs, notes &amp; scripts on tweaks I often apply to machines
 
 ## Windows 10 Only
 
@@ -12,7 +12,7 @@ $RegPropValue='1'
 
 # Create the key if it does not exist
 If (-NOT (Test-Path $RegPath)) {
-  New-Item -Path $RegPath -Force | Out-Null
+    New-Item -Path $RegPath -Force | Out-Null
 }
 
 # Now set the value
