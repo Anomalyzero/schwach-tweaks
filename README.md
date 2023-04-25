@@ -1,7 +1,7 @@
 # schwach-tweaks
 Docs, notes &amp; scripts on tweaks I often like to apply to my machines
 
-## Windows
+## Windows 10 Only
 
 ### Show Seconds on System Clock
 ```pwsh
