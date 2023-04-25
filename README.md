@@ -4,7 +4,6 @@ Docs, notes &amp; scripts on tweaks I often like to apply to my machines
 ## Windows
 
 ### Show Seconds on System Clock
-[Source](https://www.howtogeek.com/325096/how-to-make-windows-10s-taskbar-clock-display-seconds/)
 ```pwsh
 $RegPath='HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced'
 $RegPropName='ShowSecondsInSystemClock'
@@ -17,5 +16,6 @@ If (-NOT (Test-Path $RegPath)) {
 
 # Now set the value
 New-ItemProperty -Path $RegPath -Name $RegPropName -Value $RegPropValue -PropertyType DWORD -Force
-
 ```
+- [Show Seconds Registry Source](https://www.howtogeek.com/325096/how-to-make-windows-10s-taskbar-clock-display-seconds/)
+- [PWSH Set Reg Values Source](https://devblogs.microsoft.com/powershell-community/how-to-update-or-add-a-registry-key-value-with-powershell/)
