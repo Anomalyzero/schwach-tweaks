@@ -4,6 +4,7 @@ Docs, notes &amp; scripts on tweaks I often like to apply to my machines
 ## Windows 10 Only
 
 ### Show Seconds on System Clock
+***NOTE: This does not take effect until the user fully signs out and back in***
 ```pwsh
 $RegPath='HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced'
 $RegPropName='ShowSecondsInSystemClock'
